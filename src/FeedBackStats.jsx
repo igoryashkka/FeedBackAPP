@@ -2,7 +2,7 @@ import React from 'react'
 import { useContext } from "react";
 import FeedBackContext from "./context/FeedBackContext";
 //why i get invalid velue when i do not use index : 0?
-function FeedBackStats({}) {
+function FeedBackStats() {
 
     const {FeedBack} = useContext(FeedBackContext)
 
