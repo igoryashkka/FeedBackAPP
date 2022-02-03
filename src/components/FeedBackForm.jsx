@@ -26,7 +26,7 @@ useEffect(() => {
       setMessage(null);
       setDisabled(true);
     } else if (text !== "" && text.trim().length <= 10) {
-      setMessage("Оцените милость viskas.ks");
+      setMessage("Если viskas.ks не понравиться - я тебя убью!");
       setDisabled(true);
     } else {
       setDisabled(false);
