@@ -26,7 +26,7 @@ useEffect(() => {
       setMessage(null);
       setDisabled(true);
     } else if (text !== "" && text.trim().length <= 10) {
-      setMessage("Your review must be bigger than 10 sybmols...");
+      setMessage("Оцените милость viskas.ks");
       setDisabled(true);
     } else {
       setDisabled(false);
