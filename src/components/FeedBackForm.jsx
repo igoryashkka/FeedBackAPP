@@ -55,7 +55,7 @@ useEffect(() => {
   return (
     <Card>
       <form onSubmit={HandleFormSubmit}>
-        <h2> How would you rate your work with us ? </h2>
+        <h2>Оцените милость viskas.ks ? </h2>
         <RatingSelect select={(rating) => setRating(rating)} />
         <div className="input-group">
           <input
