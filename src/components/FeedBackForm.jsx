@@ -26,7 +26,7 @@ useEffect(() => {
       setMessage(null);
       setDisabled(true);
     } else if (text !== "" && text.trim().length <= 10) {
-      setMessage("Если viskas.ks не понравиться - я тебя убью!");
+      setMessage("Если для Eva.k не понравиться - я тебя убью!");
       setDisabled(true);
     } else {
       setDisabled(false);
@@ -55,7 +55,7 @@ useEffect(() => {
   return (
     <Card>
       <form onSubmit={HandleFormSubmit}>
-        <h2>Оцените милость viskas.ks ? </h2>
+        <h2>Оцените милость Eva.k ? </h2>
         <RatingSelect select={(rating) => setRating(rating)} />
         <div className="input-group">
           <input
